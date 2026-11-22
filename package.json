@@ -1,0 +1,20 @@
+{
+  "name": "voxelforge",
+  "version": "1.0.0",
+  "description": "VoxelForge — a lightweight 16-bit 3D sandbox with deep loadout customization",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "app": "npm run build && neu run",
+    "app:build": "npm run build && neu build --release"
+  },
+  "dependencies": {
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "@neutralinojs/neu": "^11.7.2",
+    "vite": "^5.0.0"
+  }
+}
